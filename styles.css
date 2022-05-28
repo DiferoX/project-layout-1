@@ -11,21 +11,56 @@ header, nav {
     color: white;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headItem1 h1 {
+    font-size: 48px;
+    font: bolder;
+    color: #f9faf8;
+    margin-bottom: 30px;
+}
+
+.headItem1 p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-right: 100px;
+}
+
+.headItem1 button {
+    background-color: #3882f6;
+    margin: 20px 0;
+    padding: 10px 30px;
+    border: 10px black;
+    border-radius: 8%;
+}
+
+.headItem2 {
+    width: 40%;
+}
+
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 5px;
 }
 
-.logo p {
-    font-size: 24px;
+.logo img {
+    padding: 0 100px;
+    height: 45px;
+    width: 45px;
 }
 
 .link a {
     color: white;
     text-decoration: none;
     padding: 0 8px;
+    font-size: 18px #f9faf8;
 }
 
 
