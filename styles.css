@@ -1,0 +1,60 @@
+body {
+    padding: 0 10%;
+    background-color: black;
+}
+
+/* HEADER */
+
+header, nav {
+    padding: 100px;
+    background-color: #1f2937;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.logo p {
+    font-size: 24px;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+    padding: 0 8px;
+}
+
+
+.info {
+    background-color: white;
+    padding: 100px;
+}
+
+.quote {
+    padding: 100px;
+    background-color: #e5e7eb;
+}
+
+.call {
+    background-color: white;
+    padding: 100px;
+}
+
+.bar {
+    padding: 30px 60px;
+    background-color: #3882f6;
+    color: white;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+}
